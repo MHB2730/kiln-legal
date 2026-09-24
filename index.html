@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kiln privacy policy</title>
+  <meta name="description" content="Privacy policy for Kiln, the field recorder for Android by Hilltrek (Pty) Ltd.">
+  <style>
+    :root {
+      --canvas: #ffffff; --text: #111418; --text2: #4a525b; --rule: #e3e6ea; --accent: #d63a00;
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --canvas: #06080b; --text: #f2f5f8; --text2: #a0a6ac; --rule: #1d232a; --accent: #ff4705; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--canvas); color: var(--text);
+      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+    .eyebrow {
+      margin: 0 0 .5rem; color: var(--accent); font-size: .78rem; font-weight: 700;
+      letter-spacing: .14em; text-transform: uppercase;
+    }
+    h1 { margin: 0 0 .25rem; font-size: 2rem; line-height: 1.2; }
+    .meta { margin: 0 0 2rem; color: var(--text2); font-size: .9rem; }
+    code { font: .85em ui-monospace, "Cascadia Mono", Consolas, monospace; }
+    .lead { font-size: 1.2rem; font-weight: 600; padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule); }
+    h2 { margin: 2.25rem 0 .5rem; font-size: 1.05rem; }
+    p { margin: 0 0 1rem; }
+    a { color: var(--accent); }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--text2); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Hilltrek (Pty) Ltd</p>
+    <h1>Kiln privacy policy</h1>
+    <p class="meta">Kiln for Android (<code>co.za.kiln</code>) · effective 24 September 2026</p>
+    <p class="lead">Kiln keeps everything on your phone.</p>
+    <p>Kiln records audio, edits it and transcribes it on the device itself. Your recordings, your transcripts and the names you type are never sent to the developer or to anyone else. There is no account, no sign-in and no server.</p>
+    <h2>Who is responsible</h2>
+    <p>Kiln is published by Hilltrek (Pty) Ltd. Questions about this policy, or about a purchase, can be sent to <a href="mailto:matt@hilltrek.co.za">matt@hilltrek.co.za</a>.</p>
+    <h2>What Kiln handles, and where it stays</h2>
+    <p>Recordings are written as WAV files to the Music/Kiln folder in your device&#x27;s shared storage, where your file manager can see them. Exported audio goes to Music/Kiln/Exports and exported text and subtitles to Documents/Kiln.</p>
+    <p>Transcripts, the names you give each transmitter, waveform details and the speech-recognition models are kept in Kiln&#x27;s own private storage on the phone.</p>
+    <p>None of it leaves the device.</p>
+    <p>Because recordings and exports sit in shared storage, they survive Kiln being uninstalled, and deleting them is up to you. Deleting a take inside Kiln removes the recording along with everything Kiln kept about it.</p>
+    <h2>Transcription runs on the phone</h2>
+    <p>Kiln transcribes using a speech-recognition model that runs on the device. Your audio is never uploaded for transcription, not to the developer and not to any speech service.</p>
+    <p>So that this is possible, Kiln downloads the model files once over an encrypted connection from huggingface.co. That is an ordinary file download: Kiln asks for a file and receives it, and nothing about you, your recordings or your transcripts is sent with the request. As with any download, the server providing the file necessarily sees the network address the request came from, and what Hugging Face does with that is governed by its own terms rather than by this policy.</p>
+    <h2>Permissions, and what each is for</h2>
+    <p>Microphone, to record. Recording only happens when you start a take, and a notification shows while it runs so it is never recording out of sight.</p>
+    <p>Notifications, to show that recording or transcription is in progress.</p>
+    <p>Music and audio files, to list, play, edit and export the takes in your Music/Kiln folder.</p>
+    <p>USB, to talk to a connected receiver. Android asks you for each device.</p>
+    <p>Internet and network state, only to download the speech-recognition model, and only over an unmetered connection unless you choose otherwise.</p>
+    <h2>What Kiln does not do</h2>
+    <p>Kiln contains no analytics, no crash reporting, no advertising and no third-party tracking code of any kind. It makes no outbound connection other than the model download described above. The developer has no way to identify you, and holds nothing about you beyond the record of a sale described under Buying Kiln.</p>
+    <h2>Buying Kiln</h2>
+    <p>Kiln is sold through Google Play. Google handles the payment under its own terms and privacy policy, and Kiln itself takes no part in it. For accounts and tax, Google gives the developer a record of each sale: an order number, the date, the price, taxes and fees, and the country of purchase, with the region and postal code in some places. It does not include your name or your email address. If you write to the developer about an order, the address you write from can be used to look that order up.</p>
+    <p>None of it is connected to anything Kiln keeps on your phone.</p>
+    <h2>Sharing</h2>
+    <p>Nothing is shared automatically. When you use Share, Android&#x27;s own share sheet opens and the file goes wherever you send it. What happens to it after that is governed by whichever app or service you chose.</p>
+    <h2>Children</h2>
+    <p>Kiln is a recording tool for professional and personal use and is not directed at children.</p>
+    <h2>Your rights</h2>
+    <p>Nothing you record or transcribe leaves your device, so none of it is held elsewhere for you to ask to see, correct or erase. Everything Kiln holds is on your phone, under your control. Removing the app and deleting the files in Music/Kiln and Documents/Kiln removes all of it.</p>
+    <p>For the record of a sale, write to <a href="mailto:matt@hilltrek.co.za">matt@hilltrek.co.za</a>. Google keeps its own record of the purchase, as its privacy policy explains.</p>
+    <h2>Changes</h2>
+    <p>If a future version of Kiln collects or transmits anything, this policy will be updated before that version is published and the change will be described here.</p>
+    <footer>Kiln is published by Hilltrek (Pty) Ltd. This is the same text the app shows under Privacy.</footer>
+  </main>
+</body>
+</html>
